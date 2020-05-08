@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FileManageFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:paddingTop="50dp"
+            android:paddingBottom="50dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="10dp"
+                android:scrollbars = "vertical"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque orci, facilisis non mi nec, porttitor suscipit nibh. Nullam accumsan sit amet tortor sit amet lacinia. Vestibulum dignissim turpis a massa convallis tristique. Nunc id rutrum enim. In quis vehicula tellus, at tincidunt mauris. Aliquam erat volutpat. Nulla at tincidunt mauris. Proin id placerat ex."
+                android:id="@+id/file_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <Button
+            android:text="reset"
+            android:id="@+id/reset_button"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,2 @@
+include ':smartwatch', ':magtouchlibrary', ':libsvm'
+rootProject.name='MagTouch'

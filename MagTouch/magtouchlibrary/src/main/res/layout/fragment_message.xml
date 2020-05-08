@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".fragment.MessageFragment">
+
+    <TextView
+        android:id="@+id/msg_textview"
+        android:layout_width="150dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="35dp"
+        android:text="test" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="90px"
+        android:textSize="10dp"
+        android:text="will be dismissed in a few seconds" />
+
+</FrameLayout>

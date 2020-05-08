@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MagTouchLibrary</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mail_app_content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus elementum velit a elementum. Donec ut orci libero. Vestibulum rhoncus quam at metus ultricies feugiat. Ut porttitor bibendum tortor, in finibus sem ultricies at. Quisque vehicula dui sed lacus dictum, eget placerat nunc lacinia. Donec sed vehicula neque. Etiam magna mauris, pretium in est sed, auctor eleifend metus. Quisque dapibus congue diam gravida condimentum. Aliquam ut volutpat dolor, non finibus libero.</string>
+</resources>
